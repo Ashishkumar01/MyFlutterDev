@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+   "image": "cirrusci/flutter:beta",
+  "forwardPorts": [3000],
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {},
+    "ghcr.io/devcontainers-contrib/features/firebase-cli:2": {}
+    
+  }
+}
